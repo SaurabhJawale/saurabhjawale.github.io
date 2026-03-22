@@ -33,7 +33,7 @@ body {
   max-width: 750px;
 }
 
-/* NAV */
+/* NAVBAR */
 .nav {
   position: sticky;
   top: 0;
@@ -42,6 +42,7 @@ body {
   z-index: 100;
 }
 
+/* MAIN FLEX */
 .nav-flex {
   display: flex;
   align-items: center;
@@ -49,13 +50,38 @@ body {
   padding: 15px 0;
 }
 
+/* LOGO LEFT */
+/* .logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--primary);
+} */
 
-/* Center alignment feel */
+/* NAV LINKS RIGHT */
 .nav-links {
   display: flex;
-  justify-content: flex-end;
-  flex: 2;
-  gap: 30px;
+  align-items: center;
+  gap: 30px; /* equal spacing between items */
+}
+
+/* LINK STYLE */
+.nav-links a {
+  text-decoration: none;
+  color: var(--subtext);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
+}
+
+/* RESUME BUTTON */
+.btn-outline {
+  border: 1px solid var(--primary);
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: var(--primary);
 }
 
 /* .logo {
