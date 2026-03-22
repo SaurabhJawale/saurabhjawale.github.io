@@ -44,9 +44,18 @@ body {
 
 .nav-flex {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 15px 0;
+}
+
+
+/* Center alignment feel */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+  gap: 30px;
 }
 
 /* .logo {
